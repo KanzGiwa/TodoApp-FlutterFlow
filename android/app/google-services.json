@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "432240192332",
+    "project_id": "todo-zk45ri",
+    "storage_bucket": "todo-zk45ri.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:432240192332:android:3f1ffcf4743f268011bde9",
+        "android_client_info": {
+          "package_name": "com.mycompany.todo"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMDDr4Ue5zZrt5grGtINg7bNemZj__ARk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
