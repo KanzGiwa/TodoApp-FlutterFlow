@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "User",
+  "description": "Schema for user documents in Firestore",
+  "type": "object",
+  "properties": {
+    "birthday": {
+      "description": "The user's birthday",
+      "type": "string",
+      "format": "date-time",
+      "example": "2005-07-14T00:00:00-04:00"
+    },
+    "created_time": {
+      "description": "The time when the user was created",
+      "type": "string",
+      "format": "date-time",
+      "example": "2025-02-10T13:12:45-05:00"
+    },
+    "display_name": {
+      "description": "The display name of the user",
+      "type": "string",
+      "example": "Kanz Giwa"
+    },
+    "email": {
+      "description": "The email address of the user",
+      "type": "string",
+      "format": "email",
+      "example": "kanz.giwa@uri.edu"
+    },
+    "photo_url": {
+      "description": "The URL of the user's profile photo",
+      "type": "string",
+      "format": "uri",
+      "example": "https://firebasestorage.googleapis.com/v0/b/todo-zk45ri.firebasestorage.app/o/users%2FleS09CsgQUTKq9gxkFQV6bvmtsl1%2Fuploads%2F1739211174261000.jpg?alt=media&token=0536d38f-b434-468b-a111-59f6445246bc"
+    },
+    "uid": {
+      "description": "The unique identifier of the user",
+      "type": "string",
+      "example": "leS09CsgQUTKq9gxkFQV6bvmtsl1"
+    }
+  },
+  "required": ["created_time", "display_name", "email", "uid"]
+}

@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Task",
+  "description": "Schema for task documents in Firestore",
+  "type": "object",
+  "properties": {
+    "completed": {
+      "description": "Status of the task completion",
+      "type": "boolean",
+      "default": true
+    },
+    "created": {
+      "description": "The time when the task was created",
+      "type": "string",
+      "format": "date-time",
+      "default": "2025-02-10T18:13:52Z"
+    },
+    "details": {
+      "description": "The details of the task",
+      "type": "string",
+      "default": "Aim for 4/4"
+    },
+    "title": {
+      "description": "The title of the task",
+      "type": "string",
+      "default": "Studying for CSC 305 Reflection for Week 3"
+    },
+    "user": {
+      "description": "Reference to the user who created the task",
+      "type": "string",
+      "default": "/users/leS09CsgQUTKq9gxkFQV6bvmtsl1"
+    }
+  },
+  "required": ["completed", "created", "title", "user"]
+}
