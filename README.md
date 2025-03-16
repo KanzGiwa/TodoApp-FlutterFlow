@@ -1,6 +1,6 @@
 # Todo
 
-A new Flutter project.
+Link to the app: https://todo-zk45ri.flutterflow.app/
 
 ## Getting Started
 
